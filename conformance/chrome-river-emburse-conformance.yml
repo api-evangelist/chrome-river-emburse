@@ -1,0 +1,52 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.emburse.com/
+docs: https://legal.emburse.com/
+standards:
+  - id: soc2-type2
+    name: SOC 2 Type 2
+    conforms: true
+    evidence: Listed on Emburse Trust Center (trust.emburse.com)
+  - id: soc1-type2
+    name: SOC 1 Type 2
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: iso-27001
+    name: ISO/IEC 27001
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: iso-27701
+    name: ISO/IEC 27701
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: iso-42001
+    name: ISO/IEC 42001:2023 (AI management system)
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: pci-dss
+    name: PCI DSS
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: gdpr
+    name: GDPR
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: ccpa
+    name: CCPA
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: cpra
+    name: CPRA
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: eu-us-dpf
+    name: EU-US Data Privacy Framework
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: tx-ramp
+    name: TX-RAMP
+    conforms: true
+    evidence: Listed on Emburse Trust Center
+  - id: oauth2
+    conforms: false
+    evidence: No public OpenAPI or OAuth discovery document available (api.emburse.com is gated 401)

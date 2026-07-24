@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.emburse.com/
+status_page: https://status.emburse.com/
+status_page_provider: Atlassian Statuspage
+sla:
+  url: https://legal.emburse.com/
+  document: Emburse Customer SLA (Version 2.1)
+versioning:
+  scheme: unknown
+  note: No public developer portal or OpenAPI; API host api.emburse.com is gated (HTTP 401).
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation policy found on Emburse's public surface.
+deprecated_operations: []

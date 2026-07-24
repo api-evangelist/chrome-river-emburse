@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://trust.emburse.com/
+certifications:
+  - SOC 1 Type 2
+  - SOC 2 Type 2
+  - ISO/IEC 27001
+  - ISO/IEC 27701
+  - ISO/IEC 42001:2023
+  - PCI DSS
+  - GDPR
+  - CCPA
+  - CPRA
+  - EU-US DPF
+  - TX-RAMP
+evidence:
+  - source: https://trust.emburse.com/
+    keywords: [soc 2, soc 1, iso/iec 27001, iso/iec 27701, iso/iec 42001, pci dss, gdpr, tx-ramp]
+  - source: https://legal.emburse.com/
+    keywords: [security overview faq, information security addendum, customer sla]

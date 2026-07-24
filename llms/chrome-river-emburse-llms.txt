@@ -1,0 +1,25 @@
+# Chrome River (Emburse)
+
+> Chrome River is an enterprise travel and expense (T&E) management platform, now part of Emburse. It provides expense reporting, invoice management, corporate card reconciliation, and travel spend controls for large and global organizations. The chromeriver.com brand redirects to Emburse Enterprise. Emburse exposes data through a gated API host (api.emburse.com) and the app.chromeriver.com application; no open developer portal or OpenAPI is published publicly. Backed by Bain Capital Ventures.
+
+## Company
+- [Emburse Enterprise (Chrome River)](https://www.emburse.com/enterprise/): Product overview
+- [Sign in](https://app.chromeriver.com/login): Chrome River application login
+- [Integrations directory](https://www.emburse.com/learn/integrations/directory): Partner and ERP integrations
+- [Blog](https://www.emburse.com/blog): Company blog
+
+## Docs & Support
+- [Help Center](https://help.emburse.com/hc/en-us): Support and knowledge base
+
+## Trust & Security
+- [Trust Center](https://trust.emburse.com/): Certifications — SOC 1/2 Type 2, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001:2023, PCI DSS, GDPR, CCPA, CPRA, EU-US DPF, TX-RAMP
+- [Responsible Disclosure](https://www.emburse.com/responsible-disclosure): Security vulnerability disclosure policy
+- [security.txt](https://www.emburse.com/.well-known/security.txt): RFC 9116 security contact
+- [Status Page](https://status.emburse.com/): Atlassian-hosted service status
+
+## Legal
+- [Legal Center](https://legal.emburse.com/): Privacy Statement, Terms and Conditions, SLA, product terms
+
+## Notes
+- No public OpenAPI, MCP server, SDKs, or open developer portal were found on Emburse's public surface as of 2026-07-18.
+- API host api.emburse.com responds HTTP 401 (authenticated/gated).

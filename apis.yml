@@ -1,8 +1,18 @@
 aid: chrome-river-emburse
 name: Chrome River (Emburse)
-description: 'Chrome River (Emburse) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Chrome River is an enterprise travel and expense (T&E) management platform now
+  part of Emburse, offering expense reporting, invoice management, corporate card
+  reconciliation, and travel spend controls for large and global organizations.
+  The chromeriver.com brand now redirects to Emburse Enterprise; expense, invoice,
+  and analytics data are exchanged through Emburse's gated API host (api.emburse.com)
+  and app.chromeriver.com sign-in. Emburse publishes a broad compliance posture
+  (SOC 1/2 Type 2, ISO/IEC 27001/27701/42001, PCI DSS, GDPR/CCPA/CPRA, TX-RAMP)
+  via its trust center and operates a public responsible-disclosure program and
+  Atlassian-hosted status page. This profile was surfaced as a Bain Capital Ventures
+  portfolio lead and enriched by the API Evangelist pipeline from Emburse's public
+  surface; no open developer portal or OpenAPI is published, so spec-bearing
+  artifacts are intentionally absent.
 url: https://raw.githubusercontent.com/api-evangelist/chrome-river-emburse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +20,76 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/l5mo20ew/production/d30ee9875c084270cf6a7b0daa1827ae69c0bb09-1200x630.png?fm=jpg&q=75
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Apps
-apis: []
+- Expense Management
+- Travel And Expense
+- Invoice Management
+- Corporate Cards
+- Spend Management
+- Fintech
+- Enterprise Software
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
+- type: VulnerabilityDisclosure
+  url: security/chrome-river-emburse-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/chrome-river-emburse-domain-security.yml
 - type: Website
-  url: http://chromeriver.com/
+  url: https://www.emburse.com/enterprise/
+- type: Support
+  url: https://help.emburse.com/hc/en-us
+- type: Blog
+  url: https://www.emburse.com/blog
+- type: PrivacyPolicy
+  url: https://legal.emburse.com/
+- type: TermsOfService
+  url: https://legal.emburse.com/
+- type: Login
+  url: https://app.chromeriver.com/login
+- type: Integrations
+  url: https://www.emburse.com/learn/integrations/directory
+- type: StatusPage
+  url: https://status.emburse.com/
+- type: Compliance
+  url: https://trust.emburse.com/
+- type: TrustCenter
+  url: security/chrome-river-emburse-trust-center.yml
+- type: Security
+  url: https://www.emburse.com/responsible-disclosure
+- type: WellKnown
+  url: well-known/chrome-river-emburse-well-known.yml
+- type: SecurityTxt
+  url: well-known/chrome-river-emburse-security.txt
+- type: Conformance
+  url: conformance/chrome-river-emburse-conformance.yml
+- type: Lifecycle
+  url: lifecycle/chrome-river-emburse-lifecycle.yml
+- type: LLMsTxt
+  url: llms/chrome-river-emburse-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
