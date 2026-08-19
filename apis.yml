@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.sanity.io/images/l5mo20ew/production/d30ee9875c084270cf6a7b0daa1827ae69c0bb09-1200x630.png?fm=jpg&q=75
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
